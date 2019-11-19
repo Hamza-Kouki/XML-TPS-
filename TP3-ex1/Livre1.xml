@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE  livre SYSTEM "Livre1.dtd">
+<!-- <livre  xmlns ="http://www.w3schools.com" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation= "https://www.w3schools.com/xml/Livre1.xsd"> -->
+<livre>
+<auteurs>
+    <auteur>
+           <Nom>     Brillant </Nom>     
+             <prenom>   Alexandre </prenom>    
+     </auteur> 
+     <auteur>
+           <Nom>    Briand </Nom>     
+             <prenom>   Aristide </prenom>    
+        </auteur>
+</auteurs>
+<sections>
+      <section>
+             <chapitre>
+                     <paragraphe>Premier paragraphe</paragraphe>
+                     <paragraphe>Deuxième paragraphe</paragraphe>
+                     </chapitre>
+             <chapitre>
+                      <paragraphe>Premier paragraphe</paragraphe>
+                      <paragraphe>Deuxième paragraphe</paragraphe>
+              </chapitre>
+       </section>
+       <section>
+                <chapitre>
+                         <paragraphe>Premier paragraphe</paragraphe>
+                        <paragraphe>Deuxième paragraphe</paragraphe>
+                </chapitre>
+                <chapitre>
+                          <paragraphe>Premier paragraphe</paragraphe>
+                          <paragraphe>Deuxième paragraphe</paragraphe>
+                </chapitre>
+           </section>
+</sections>
+</livre>

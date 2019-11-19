@@ -1,0 +1,7 @@
+<!ELEMENT livre (auteurs,sections) >
+<!ELEMENT auteurs (auteur)+ >
+<!ELEMENT auteurs EMPTY >
+<!ELEMENT sections (section, section+)>
+<!ELEMENT section (chapitre, chapitre+) >
+<!ELEMENT chapitre (paragraphe, paragraphe+) >
+<!ELEMENT paragraphe (#PCDATA) >

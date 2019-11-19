@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<!DOCTYPE  LIVRE SYSTEM "livre2.dtd">
+<!-- <livre  xmlns ="http://www.w3schools.com" 
+xmlns :xsi= http://www.w3.org/2001/XMLShema-instance"
+xsi :schemaLocation= https://www.w3schools.com/xml/Livre2.xsd"> -->
+
+
+<livre titre="Mon livre">
+<auteurs>
+    <auteur nom="Brillant" prenom="Alexandre"/>
+     <auteur nom="Briand" prenom="Aristide"/>
+</auteurs>
+<sections>
+      <section titre="Section 1">
+             <chapitre titre="Chapitre 1">
+                     <paragraphe>Premier paragraphe</paragraphe>
+                     <paragraphe>Deuxième paragraphe</paragraphe>
+             </chapitre>
+             <chapitre titre="Chapitre 2">
+                      <paragraphe>Premier paragraphe</paragraphe>
+                      <paragraphe>Deuxième paragraphe</paragraphe>
+              </chapitre>
+       </section>
+       <section titre="Section 2">
+                <chapitre titre="Chapitre 1">
+                         <paragraphe>Premier paragraphe</paragraphe>
+                        <paragraphe>Deuxième paragraphe</paragraphe>
+                </chapitre>
+                <chapitre titre="Chapitre 2">
+                <paragraphe>Premier paragraphe</paragraphe>
+                          <paragraphe>Deuxième paragraphe</paragraphe>
+                </chapitre>
+           </section>
+</sections>
+</livre>

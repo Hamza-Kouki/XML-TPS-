@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet   type="text/css"  href="stayle/boutique.css"?>
+<!DOCTYPE boutique SYSTEM "boutique.dtd"> 
+<boutique>
+<telephone>
+             <marque>    Sumsung </marque>     
+             <modele>     S7           </modele>   
+</telephone>
+<telephone>
+             <marque>    apple </marque>     
+             <modele>  iphone 6 </modele>   
+</telephone>
+<telephone>
+             <marque>    huawei </marque>     
+             <modele>  Y7    </modele>   
+</telephone>
+</boutique>
+

@@ -1,0 +1,22 @@
+telephhone 
+{
+           font-family :arial ;
+           font-size:16pt ;
+           background : white ;
+           Color :white
+}
+
+marque
+{
+           font-style:ital;
+          font-size:14pt ;
+           background : white ;
+
+          color :red
+}
+modele {
+           font-style :ital;
+           font-size:14pt ;
+           background : white ;
+          color :blue
+}

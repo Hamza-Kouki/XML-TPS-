@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE bibliotheque  [
+<!ELEMENT bibliotheque (livre+) >
+<!ELEMENT livre (titre,auteur, reference) >
+<!ELEMENT titre (#PCDATA) >
+<!ELEMENT auteur (#PCDATA) >
+<!ELEMENT reference (#PCDATA) >
+]>
+
+<bibliotheque >
+<livre>
+             <titre>     livre1 </titre>     
+             <auteur>   Auteur1 </auteur>   
+            <reference>   reference1 </reference>   
+ </livre>
+     <livre>
+            <titre>     livre2 </titre>     
+             <auteur>   auteur2 </auteur>   
+            <reference>   reference2</reference>   
+ </livre>
+<livre>
+            <titre>     livre3 </titre>     
+             <auteur>   auteur3 </auteur>   
+            <reference>   reference3 </reference>   
+ </livre>
+</bibliotheque>
+

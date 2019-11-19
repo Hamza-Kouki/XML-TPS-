@@ -1,0 +1,12 @@
+<!ELEMENT livre (auteurs,sections) >
+<!ATTLIST livre titre CDATA #REQUIRED>
+<!ELEMENT auteurs (auteur)+ >
+<!ELEMENT auteurs EMPTY >
+<!ATTLIST auteur nom CDATA #REQUIRED
+prenom CDATA #REQUIRED>
+<!ELEMENT sections (section, section+)>
+<!ELEMENT section (chapitre, chapitre+) >
+<!ATTLIST section titre CDATA #REQUIRED>
+<!ELEMENT chapitre (paragraphe, paragraphe+) >
+<!ATTLIST chapitre titre CDATA #REQUIRED>
+<!ELEMENT paragraphe (#PCDATA) >
