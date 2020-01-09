@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xsd:schema xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+
+    <xsd:annotation>
+        <xsd:documentation>
+            This shema captures books details
+        </xsd:documentation>
+    </xsd:annotation>
+    
+
+    
+    <xsd:element name="bibliotheque" >
+        <xsd:complexType> 
+            <xsd:sequence>   <!-- by default min occur = max occur = 1  -->
+                <xsd:element name="livre" type="type-livre" minOccurs="1" maxOccurs="unbounded" />   
+            </xsd:sequence>
+        </xsd:complexType>
+    </xsd:element>
+    
+        <xsd:complexType name="type-livre" >
+            <xsd:sequence>  <!-- what if i wanted to add multiple authors for one book ?  -->
+                <xsd:element name="titre" type="xsd:string"  />
+                <xsd:element name ="auteur" type="xsd:string"  />
+                <xsd:element name="reference" type="xsd:string" /> 
+            </xsd:sequence>
+        </xsd:complexType>
+
+
+</xsd:schema>
+

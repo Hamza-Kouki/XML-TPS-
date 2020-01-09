@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+
+
+<!DOCTYPE bibliotheque SYSTEM "biblio_v2.dtd">
+
+<bibliotheque>
+
+<livre titre="Titre 1" auteur="Auteur 1" reference="Reference 1"></livre>
+<livre titre="Titre 2" auteur="Auteur 2" reference="Reference 2"></livre>
+<livre titre="Titre 3" auteur="Auteur 3" reference="Reference 3"></livre>
+
+</bibliotheque>

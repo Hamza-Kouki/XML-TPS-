@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bibliotheque xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="bibliotheque.xsd">
+
+<livre>
+<titre>Titre 1</titre>
+<auteur>Auteur 1</auteur>
+<reference>Reference 1</reference>
+</livre>
+
+<livre>
+<titre>Titre 2</titre>
+<auteur>Auteur 2</auteur>
+<reference>Reference 2</reference>
+</livre>
+
+<livre>
+<titre>Titre 3</titre>
+<auteur>Auteur 3</auteur>
+<reference>Reference 3</reference>
+</livre>
+
+</bibliotheque>

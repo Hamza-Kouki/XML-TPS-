@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+
+
+<livre titre="" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="livre2.xsd">
+    
+    <auteur nom="" prenom=""></auteur>
+    
+    <section titre="">
+        
+        <chapitre titre="">
+            <paragraphe></paragraphe>
+            <paragraphe></paragraphe>
+        </chapitre>
+        <chapitre titre="">
+            <paragraphe></paragraphe>
+            <paragraphe></paragraphe>
+        </chapitre>
+        
+    </section>
+    
+    <section titre="">
+        
+        <chapitre titre="">
+            <paragraphe></paragraphe>
+            <paragraphe></paragraphe>
+        </chapitre>
+        <chapitre titre="">
+            <paragraphe></paragraphe>
+            <paragraphe></paragraphe>
+        </chapitre>
+        
+    </section>
+    
+    
+        
+    
+</livre>

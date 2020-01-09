@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type='text/xsl' href='biblio.xsl'?>
+<!DOCTYPE bibliotheque SYSTEM "biblio.dtd">
+
+<bibliotheque>
+
+<livre>
+<titre>Livre 1</titre>
+<auteur>Auteur 1</auteur>
+<reference>#001</reference>
+</livre>
+
+<livre>
+<titre>Livre 2</titre>
+<auteur>Auteur 2</auteur>
+<reference>#002</reference>
+</livre>
+
+<livre>
+<titre>Livre 3</titre>
+<auteur>Auteur 3</auteur>
+<reference>#003</reference>
+</livre>
+
+
+</bibliotheque>
+

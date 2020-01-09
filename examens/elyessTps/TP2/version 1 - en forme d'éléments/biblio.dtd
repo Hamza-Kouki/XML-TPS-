@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT bibliotheque (livre+)>
+<!ELEMENT livre (titre,auteur,reference)>
+<!ELEMENT titre (#PCDATA)>
+<!ELEMENT auteur (#PCDATA)>
+<!ELEMENT reference (#PCDATA)>

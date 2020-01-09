@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<?xml-stylesheet href="boutique.css" type="text/css"?> 
+
+
+
+
+<!DOCTYPE boutique SYSTEM "boutique.dtd">
+
+<boutique>
+
+	<telephone>
+	<marque>Samsung</marque>
+	<modele>s10</modele>	
+	</telephone>
+	
+	<telephone>
+	<marque>Sony</marque>
+	<modele>g5600</modele>	
+	</telephone>
+	
+	<telephone>
+	<marque>Nokia</marque>
+	<modele>3310</modele>	
+	</telephone>
+
+
+</boutique>

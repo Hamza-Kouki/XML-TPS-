@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+
+<!ELEMENT bibliotheque (livre+)>
+<!ELEMENT livre ANY>
+<!ATTLIST livre titre CDATA #REQUIRED >
+<!ATTLIST livre auteur CDATA #REQUIRED>
+<!ATTLIST livre reference CDATA #REQUIRED>
+

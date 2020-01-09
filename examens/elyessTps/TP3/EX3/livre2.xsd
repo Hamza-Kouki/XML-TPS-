@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+<xsd:schema version="1.0"
+           xmlns:xsd="http://www.w3.org/2001/XMLSchema"
+           elementFormDefault="qualified">
+          
+   
+     
+    
+    <xsd:complexType name="chapitre-type">
+        <xsd:sequence>
+            <xsd:element name="paragraphe" type="xsd:string" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute name="titre" type="xsd:string" use="required"/>
+    </xsd:complexType>
+    
+    
+    <xsd:complexType name="section-type">
+        <xsd:sequence>
+            <xsd:element name="chapitre" type="chapitre-type" minOccurs="1" maxOccurs="unbounded"/>
+        </xsd:sequence>
+        <xsd:attribute type="xsd:string" name="titre" use="required"/>
+    </xsd:complexType>
+    
+    
+     <xsd:complexType name="auteur-type">
+    <xsd:simpleContent>
+      <xsd:extension base="xsd:string">
+        <xsd:attribute type="xsd:string" name="nom" use="required"/>
+        <xsd:attribute type="xsd:string" name="prenom" use="required"/>
+      </xsd:extension>
+    </xsd:simpleContent>
+     </xsd:complexType>
+    
+    
+    <xsd:complexType name="livre-type">
+    <xsd:sequence>
+        <xsd:element name="auteur" type="auteur-type"/>
+        <xsd:element name="section" type="section-type" minOccurs="1" maxOccurs="unbounded"/>
+    </xsd:sequence>
+     <xsd:attribute name="titre" type="xsd:string" use="required" />
+    </xsd:complexType>
+    
+     <xsd:element name="livre" type="livre-type" />
+    
+</xsd:schema>

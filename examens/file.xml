@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<shema xmlns="http://www.w3.org/2001/XMKShema"
+       targetNamespace="http://mbaron.developpez.com/InfoPersoShema"
+       xmlns:tns="http://mbaron.developpez.com/InfoPersoShema"
+       elementFromDefault="qualified"
+       attributeFormDefault="qualified">
+    <element name="person">
+        <complexType>
+            <sequence>
+                <element name="name" type="string" />
+                <element name="firstName" type="string" />
+                <element name="old" type="tns:ageType" />
+                <element name="email" type="tns:emailType" minOccurs="0" />
+                <element name="childs" type="tns:childsType" minOccurs="0" maxOccurs="1" />
+            </sequence>
+        </complexType>
+    </element>
+
+    <simpleType name="ageType">
+        <restriction base="integer">
+            <minInclusive value="1" />
+            <minInclusive value="100" />
+        </restriction>
+    </simpleType>
+
+    <simpleType name="emailType">
+        <restriction base="string">
+            <pattern value=".*@.*" />
+        </restriction>
+    </simpleType>
+
+        <simpleType name="sexeTypeChild">
+        <restriction base="string">
+            <enumeration valie="homme" />
+            <enumeration valie="femme" />
+            <enumeration valie="noNeed" />
+        </restriction>
+
+        <simpleType name="ageTypeChild">
+        <restriction base="tns:ageType">
+            <maxInclusive value="50" />
+        </restriction>
+    </simpleType>
+
+    <complexType name="childType">
+        <sequence>
+            <element name="child" minOccurs="1" maxOccurs="3">
+                <complexType>
+                    <attribute name="remark" type="string" use="required" />
+                    <attribute name="old" type="tns:ageTypeChild" />
+                    <attribute name="sexe" type="tns:sexeTypeChild" />
+                </complexType>
+            </element>
+        </sequence>
+    </complexType>
+</shema>
